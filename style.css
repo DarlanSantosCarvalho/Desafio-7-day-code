@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+html{
+    font-family: 'Inter', sans-serif;
+}
+
+:root{
+    --cor-fonte: #3a404e;
+    --vermelho: #8E2424;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    padding: 6px;
+}
+
+.cabecalho img{
+    margin-left: 30px;
+    width: 22px;
+    height: 23px;
+}
+
+h4{
+    color: var(--vermelho);
+    font-size: 14px;
+}
+
+h3{
+    display: inline;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: var(--cor-fonte);
+    padding-bottom: 20px;
+}
+
+p{
+    font-size: 20px;
+    color:#667085;
+}
+
+nav{
+    display: flex;
+}
+
+nav li{
+    display: inline-block;
+    margin: 25px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+nav a{
+    list-style: none;
+    text-decoration: none;
+    color: var(--cor-fonte);
+}
+
+.botoes{
+    padding-right: 40px;
+}
+
+#botao-entrar{
+    margin-right: 30px;
+    border: none;
+    background-color: #ffffff00;
+    color: var(--cor-fonte);
+    font-family: 'Inter', sans-serif;
+}
+
+.botao-cadastro{
+    border: none;
+    height: 44px;
+    width: 112px;
+    border-radius: 8px;
+    background-color: var(--vermelho);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+/* PARTE PRINCIPAL DO PROJETO */
+
+main{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 100px;
+}
+
+.diferencial h4{
+    color: var(--vermelho);
+    font-size: 16px;
+    margin: 20px;
+}
+
+.diferencial h1{
+    color:#101828;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 40px;
+}
+
+
+.dados{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.dados h2{
+    color: var(--vermelho);
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* PARTE DO EMPREGO DO PROJETO */
+
+.container-emprego{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.container-emprego h1{
+    margin: 30px;
+}
+
+.container-emprego img{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1216px;
+    height: 400px;
+}
+
+/* VAGAS DO SITE */
+
+.vagas-emprego{
+    margin-top: 100px;
+    padding-top: 70px;
+    text-align: left;
+    position: relative;
+}
+
+.vagas-emprego h2{
+    margin-bottom: 30px;
+    margin-left: 280px;
+}
+
+.vagas-emprego li{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 50px;
+    margin-right: 50px;
+    color: #667085;
+    font-size: 16px;
+}
+
+.janela-emprego{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: left;
+    width: 768px;
+    height: 136px;
+    border-radius: 16px;
+    border: 1px solid #EAECF0;
+}
+
+.janela-emprego h3{
+    font-family: 'Inter', sans-serif;
+    color: #101828;
+    font-size: 18px;
+}
+
+.emprego-dev{
+    margin-top: 100px;
+}
+
+
+.container-saude{
+    width: 1216px;
+    height: 404px;
+    background-color: #C3191908;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.container-saude h4{
+    padding-top: 40px;
+}
+
+.container-saude h1{
+    padding-top: 30px;
+}
+
+.container-saude img{
+    padding-top: 60px;
+}
+
+.container-saude h5{
+    color: #101828;
+    font-size: 16px;
+}
+
+.container-saude p{
+    color: #667085;
+    font-size: 14px;
+}
+
+footer{
+    background-color: #F9FAFB;
+    width: 100%;
+    height: 430px;
+    text-align: center;
+    padding: 150px;
+    font-size: 18px;
+}
+
+.formulario{
+    margin: 35px;
+}
+
+input{
+    padding: 8px;
+    border: 1px solid #D0D5DD;
+    width: 360px;
+    height: 48px;
+    border-radius: 8px;
+}
+
+input::placeholder{
+    color: #667085;
+}
+
+#copyright{
+    font-size: 16px;
+}
